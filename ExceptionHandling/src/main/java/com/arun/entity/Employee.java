@@ -34,7 +34,7 @@ public class Employee {
 	@CreationTimestamp
 	private LocalDate createddate;
 	
-//	@OneToOne(cascade = CascadeType.ALL)
+	@OneToOne(cascade = CascadeType.ALL)
     private Address address;
 
 }
